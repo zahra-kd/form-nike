@@ -5,23 +5,25 @@ body {
 }
 #all {
     width: 80%; 
-    margin: auto;
+    margin: 20px auto;
     background-color: white;
     border-radius: 20px;
-    height: 540px;
+    height: 560px;
+}
+.titre {
+    margin-bottom: 40px;
 }
 .title {
     margin-top: 0px;
 }
 img {
     width: 450px;
-    height: 540px;
+    height: 560px;
     float: left;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
 #form {
-    /* padding: 30px; */
     padding-top: 30px;
     padding-bottom: 30px;
     color: #9651b8;
@@ -41,12 +43,12 @@ input, select {
 label {
     display: block;
 }
-button {
-    display: block;
-    padding: 10px;
-    border-radius: 20px;
+button { 
+    padding: 20px;
+    border-radius: 50px;
     width: 400px;
     color: white;
-    background-image: linear-gradient(90deg,rgba(49, 89, 140)6%, rgba(97, 2, 153)94%);
+    background-image: linear-gradient(90deg,rgba(49, 89, 140)6%, rgba(97, 2, 153)40%);
     border: none;
+    margin-top: 15px;
 }
